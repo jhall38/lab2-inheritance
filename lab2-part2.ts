@@ -1,7 +1,7 @@
 class SavingsAccount {
   private balance : number;
   private ownerName : string;
-  allowedWithdraws : number;
+  private allowedWithdraws : number;
 
   constructor(initialBalance, ownerName) {
     this.balance = initialBalance;
